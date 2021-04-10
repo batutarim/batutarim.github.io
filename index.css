@@ -1,7 +1,8 @@
 .centerTitle {
-    width: 50%;
+    margin: 0px;
 }
 
 h1 {
+    width: 50%;
     font-family: "Anonymous Pro";
 }
