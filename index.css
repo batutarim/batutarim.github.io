@@ -4,12 +4,14 @@ h1 {
 
 body {
     background-color: #23262c;
+    height: 2000px;
 }
 
 .progress-container {
     width: 100%;
     height: 8px;
     background: #ccc;
+    position: fixed;
 }
   
   .progress-bar {
