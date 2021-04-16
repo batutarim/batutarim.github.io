@@ -1,5 +1,10 @@
-h1 {
+.title {
     font-family: "Anonymous Pro";
+    position: fixed;
+}
+
+.title:hover {
+    background-color: white;
 }
 
 body {
