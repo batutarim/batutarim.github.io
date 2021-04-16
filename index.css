@@ -1,12 +1,20 @@
-.title {
-    font-family: "Anonymous Pro";
+.top {
     position: fixed;
 
+    width: 100%;
+}
+
+.title-container {
+    width: fit-content;
+}
+
+.title {
+    font-family: "Anonymous Pro";
     text-decoration: none;
-    background-image: linear-gradient(#FF512F, #DD2476);
+    background-image: linear-gradient(to right, #FF512F, #DD2476);
     background-size: 0% 0.1em;
     background-position-y: 100%;
-    background-position-x: 0%;
+    background-position-x: 100%;
     background-repeat: no-repeat;
     transition: background-size 0.2s ease-in-out;
 }
@@ -15,6 +23,7 @@
 .title:focus,
 .title:active {
     background-size: 100% 0.1em;
+    background-position-x: 0%;
 }
 
 body {
@@ -26,7 +35,6 @@ body {
     width: 100%;
     height: 8px;
     background: #ccc;
-    position: fixed;
 }
   
   .progress-bar {
