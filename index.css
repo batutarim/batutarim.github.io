@@ -1,10 +1,20 @@
 .title {
     font-family: "Anonymous Pro";
     position: fixed;
+
+    text-decoration: none;
+    background-image: linear-gradient(#FF512F, #DD2476);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
 }
 
-.title:hover {
-    background-color: white;
+.title:hover,
+.title:focus,
+.title:active {
+    background-size: 100% 0.1em;
 }
 
 body {
