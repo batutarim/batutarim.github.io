@@ -61,7 +61,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(255, 255, 255);
+    background: #ffffff;
 }
 
 ::-webkit-scrollbar-thumb:active {
