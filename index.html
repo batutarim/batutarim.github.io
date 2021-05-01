@@ -10,21 +10,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anonymous Pro">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="script.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
     </head>
     <body>
         <div class="top">
-        <div class="title-container">
-            <span class="title">batutarim</span>
+            <div class="top-length">
+                <div class="title-container">
+                    <a href="#"><h3 class="title">batutarim</h3></a>
+                    <a href="#" style="float: right;"><h3 class="title">_projects</h3></a>
+                    <h3 class="text-div" style="float: right;">  </h3>
+                    <a href="#" style="float: right;"><h3 class="title">_tutorials</h3></a>
+                    <img src="https://static.thenounproject.com/png/31188-200.png">
+                </div>
+            </div>
             <div class="progress-container">
                 <div class="progress-bar" id="scroll"></div>
             </div>
-        </div>
         </div>
         <iframe
             src="https://player.twitch.tv/?channel=batutarim&parent=batutarim.github.io"
@@ -33,5 +36,17 @@
             frameborder="0"
             allowfullscreen="true">
         </iframe>
+        <script>
+            window.addEventListener(
+            "scroll",
+            () => {
+                document.body.style.setProperty(
+                "--scroll",
+                window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
+                );
+            },
+            false
+            );
+        </script>
     </body>
 </html>
