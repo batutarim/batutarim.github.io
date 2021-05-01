@@ -5,7 +5,8 @@
 }
 
 .top-length {
-    background-color: rgb(255, 255, 255);
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .title-container {
@@ -15,7 +16,7 @@
 
 .title {
     display: inline;
-    color: black;
+    color: #000000;
     margin: 0%;
     font-family: "Anonymous Pro";
     text-decoration: none;
@@ -25,6 +26,10 @@
     background-position-x: 100%;
     background-repeat: no-repeat;
     transition: background-size 0.2s ease-in-out;
+}
+
+.main {
+    padding-top: 44px;
 }
 
 .title:hover,
@@ -39,7 +44,7 @@ a {
 }
 
 body {
-    background-color: #24262b;
+    background-color: #24262B;
     height: 2000px;
 }
 
@@ -65,6 +70,7 @@ img {
 }
   
 .progress-bar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 5px;
     background-image: linear-gradient(to right, #FF512F, #DD2476);
     width: 0%;
@@ -81,12 +87,12 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ffffff;
+    background: #FFFFFF;
     border: 0px none;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ffffff;
+    background: #FFFFFF;
 }
 
 ::-webkit-scrollbar-thumb:active {
