@@ -1,6 +1,5 @@
 .top {
     position: fixed;
-
     width: 100%;
 }
 
@@ -29,7 +28,9 @@
 }
 
 .main {
-    padding-top: 44px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
 }
 
 .title:hover,
