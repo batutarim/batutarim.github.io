@@ -9,4 +9,4 @@ function Scroll() {
 
 console.log("%c  ", "background-image: url('https://batutarim.github.io/favicon.png'); background-repeat: no-repeat; background-size: 128px 128px; font-size: 128px")
 
-console.warn("You aren't supposed to be here >:/")
+console.warn("You are not supposed to be here >:/")
