@@ -27,7 +27,19 @@
     transition: background-size 0.2s ease-in-out;
 }
 
-
+.title2 {
+    display: inline;
+    color: #000000;
+    margin: 0%;
+    font-family: "Anonymous Pro";
+    text-decoration: none;
+    background-image: linear-gradient(to right, #463f3f, #000000);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
 
 .main {
     padding-left: 10px;
