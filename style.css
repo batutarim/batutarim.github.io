@@ -27,6 +27,20 @@
     transition: background-size 0.2s ease-in-out;
 }
 
+.title2 {
+    display: inline;
+    color: #000000;
+    margin: 0%;
+    font-family: "Anonymous Pro";
+    text-decoration: none;
+    background-image: linear-gradient(to right, #000000, #000000);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+
 .main {
     padding-left: 10px;
     padding-right: 10px;
@@ -35,7 +49,10 @@
 
 .title:hover,
 .title:focus,
-.title:active {
+.title:active,
+.title2:hover,
+.title2:focus,
+.title2:active {
     background-size: 100% 0.1em;
     background-position-x: 0%;
 }
@@ -47,22 +64,6 @@ a {
 body {
     background-color: #24262B;
     height: 2000px;
-}
-
-img {
-    width: 30px;
-    height: 30px;
-    animation: rotate 1s linear infinite;
-    animation-play-state: paused;
-    animation-delay: calc(var(--scroll) * -1s);
-  
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-}
-@keyframes rotate {
-    to {
-      transform: rotate(360deg);
-    }
 }
 
 .progress-container {
