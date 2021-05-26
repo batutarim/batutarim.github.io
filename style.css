@@ -19,7 +19,6 @@
     margin-left: 10px;
     font-size: 2.7rem;
     color: #000000;
-    font-family: "Anonymous Pro";
     background-image: linear-gradient(to right, #000000, #000000);
     background-size: 0% 0.1em;
     background-position-y: 100%;
@@ -32,7 +31,6 @@
     float: right;
     font-size: 2.7rem;
     color: #000000;
-    font-family: "Anonymous Pro";
     background-image: linear-gradient(to right, #000000, #000000);
     background-size: 0% 0.1em;
     background-position-y: 100%;
@@ -66,6 +64,7 @@ body {
     margin: 0;
     border-radius: 10px;
     height: 2000px;
+    font-family: "Anonymous Pro";
 }
 
 .progress-container {
@@ -126,7 +125,6 @@ body {
 }
 
 .splash-screen {
-    border-right: 10px solid #000000;
     background-image: linear-gradient(#FF512F, #DD2476);
     position: fixed;
     left: 0;
