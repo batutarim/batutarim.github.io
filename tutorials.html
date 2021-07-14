@@ -16,7 +16,7 @@
 				<div class="title-container">
                     <a href="index.html" class="title">batutarim</a>
                     <a href="projects.html" class="title2">_projects</a>
-                    <a href="#" class="title2">_tutorial</a>
+                    <a href="#" class="title2">_tutorials</a>
                 </div>
             </div>
             <div class="progress-container">
@@ -28,6 +28,23 @@
                 <div class="child"></div>
                 <div class="child"></div>
                 <div class="child"></div>
+            </div>
+            <div>
+                <p style="background-color: rgb(0, 0, 0); color: white; width: fit-content; border-radius: 5px; padding: 10px;">const nameArray = ["Alex", "Keith", "Hannah", "Jack", "Gabriella", "Steven"];
+var arrayCount = 0;
+var longestName = "";
+function arrayCycle() {
+    if (arrayCount < nameArray.length) {
+        if (nameArray[arrayCount].length > longestName.length) {
+            longestName.length = nameArray[arrayCount].length;
+            longestName = nameArray[arrayCount];
+        }
+    arrayCount = arrayCount + 1;
+    arrayCycle();
+    }
+}
+arrayCycle();
+console.log(`The longest name was ${longestName} with ${longestName.length} letters!`);</p>
             </div>
         </div>
         <div class="splash-screen"></div>
